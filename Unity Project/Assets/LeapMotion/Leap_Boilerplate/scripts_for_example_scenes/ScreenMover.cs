@@ -4,12 +4,12 @@ using System.Collections;
 public class ScreenMover : MonoBehaviour {
 	public float _projectionDistance = 5;
 
-	private Camera _mainCam;
-	private LeapManager _leapManager;
+	public Camera _mainCam;
+	public LeapManager _leapManager;
 	// Use this for initialization
 	void Start () {
-		_mainCam = (GameObject.FindGameObjectWithTag("MainCamera")as GameObject).GetComponent(typeof(Camera)) as Camera;
-		_leapManager = (GameObject.Find("LeapManager")as GameObject).GetComponent(typeof(LeapManager)) as LeapManager;
+	//	_mainCam = (GameObject.FindGameObjectWithTag("MainCamera")as GameObject).GetComponent(typeof(Camera)) as Camera;
+	//	_leapManager = (GameObject.Find("LeapManager")as GameObject).GetComponent(typeof(LeapManager)) as LeapManager;
 	}
 	
 	// Update is called once per frame
