@@ -5,6 +5,7 @@ using Leap;
 public class LeapFly : MonoBehaviour {
   
   Controller m_leapController;
+  bool flyMode = true;
   
   // Use this for initialization
   void Start () {
@@ -41,15 +42,13 @@ public class LeapFly : MonoBehaviour {
   void FixedUpdate () {
     
     Frame frame = m_leapController.Frame();
+    Debug.Log(frame.Fingers.Count);
 
 
-    if (frame.Hands.Count >= 2 && frame.Fingers.Count > 2)
+    if (frame.Hands.Count >= 2 && frame.Fingers.Count > 2 && flyMode == true)
     {
         Hand leftHand = GetLeftMostHand(frame);
         Hand rightHand = GetRightMostHand(frame);
-
-        Debug.Log(frame.Hands[0].Direction.ToUnity() + "Hand 0, PITCH - YAW - ROLL");
-        Debug.Log(frame.Hands[1].Direction.ToUnity() + "Hand 1, PITCH - YAW - ROLL");
 
         // takes the average vector of the forward vector of the hands, used for the
         // pitch of the plane.
@@ -60,7 +59,7 @@ public class LeapFly : MonoBehaviour {
         Vector3 newRot = transform.parent.localRotation.eulerAngles;
         newRot.z = -handDiff.y * 20.0f;
 
-        Debug.Log(handDiff.y);
+        
 
         // adding the rot.z as a way to use banking (rolling) to turn.
         newRot.y += handDiff.z * 3.0f - newRot.z * 0.03f * transform.parent.rigidbody.velocity.magnitude;
@@ -77,8 +76,35 @@ public class LeapFly : MonoBehaviour {
         transform.parent.localRotation = Quaternion.Slerp(transform.parent.localRotation, Quaternion.Euler(newRot), 0.1f);
         transform.parent.rigidbody.velocity = transform.parent.forward * forceMult;
     }
-    else {
+    else if (frame.Hands.Count >= 2 && frame.Fingers.Count < 2)
+    {
+        flyMode = false;
+        Debug.Log("FlyMode = Vals");
         transform.parent.rigidbody.velocity = transform.parent.forward * 0;
+    }
+
+    // NO FLY MODE
+
+    if (flyMode == false && frame.Hands.Count >= 2) {
+        Hand leftHand = GetLeftMostHand(frame);
+        Hand rightHand = GetRightMostHand(frame);
+
+        Debug.Log(frame.Hands[0].Direction.ToUnity() + frame.Hands[1].Direction.ToUnity() * 0.5f);
+
+        // takes the average vector of the forward vector of the hands, used for the
+        // pitch of the plane.
+        Vector3 avgPalmForward = (frame.Hands[0].Direction.ToUnity() + frame.Hands[1].Direction.ToUnity()) * 0.5f;
+
+        Vector3 handDiff = leftHand.PalmPosition.ToUnityScaled() - rightHand.PalmPosition.ToUnityScaled();
+
+        Vector3 newRot = transform.parent.localRotation.eulerAngles;
+        newRot.z = 0;
+
+        // adding the rot.z as a way to use banking (rolling) to turn.
+        newRot.y += handDiff.z * 3.0f - newRot.z * 0.03f * transform.parent.rigidbody.velocity.magnitude;
+        newRot.x = -(avgPalmForward.y - 0.1f) * 100.0f;
+        
+        transform.parent.localRotation = Quaternion.Slerp(transform.parent.localRotation, Quaternion.Euler(newRot), 0.1f);
     }
 
       

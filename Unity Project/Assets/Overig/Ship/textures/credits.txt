@@ -1,0 +1,11 @@
+The basis texture for the paint came from:
+http://mayang.com/textures/
+
+Cargo textures came from:
+http://www.containerhandbuch.de/chb_e/stra/stra_03_08_00.html
+http://www.transoceancontainers.net/new.htm
+http://www.etoy.com/blog/archive/tag/sun/
+
+Water came from:
+http://www.pekaro.de/blender/water/water_tutorial.html
+

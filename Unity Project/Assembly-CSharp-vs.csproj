@@ -55,9 +55,11 @@
      <Compile Include="Assets\LeapMotion\Leap_Boilerplate\scripts_for_example_scenes\ScreenMover.cs" />
      <Compile Include="Assets\LeapMotion\Leap_Boilerplate\scripts_for_example_scenes\WorldMover.cs" />
      <Compile Include="Assets\LeapMotionBeweging\LeapFly.cs" />
+     <Compile Include="Assets\LeapMotionBeweging\LeapFly2.cs" />
      <None Include="Assets\LeapMotion\Leap_Boilerplate\readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Overig\Ship\textures\credits.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
