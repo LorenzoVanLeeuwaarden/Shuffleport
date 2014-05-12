@@ -10,3 +10,15 @@ C:\Users\Lorenzo\Documents\GitHub\Shuffleport\Unity Project\Temp\bin\Debug\ICSha
 C:\Users\Lorenzo\Documents\GitHub\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
 C:\Users\Lorenzo\Documents\GitHub\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\Lorenzo\Documents\GitHub\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\Temp\bin\Debug\LeapCSharp.NET3.5.dll
+C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-firstpass.pdb

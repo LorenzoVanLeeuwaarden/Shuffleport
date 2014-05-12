@@ -13,8 +13,9 @@ public class WorldMover : MonoBehaviour {
 		if(_leapManager != null) { 
 			if(_leapManager.pointerAvailible)
 			{
-				this.transform.position = _leapManager.pointerPositionWorld;
-				if(!renderer.enabled) { renderer.enabled = true; }
+                Vector3 yolo = new Vector3(_leapManager.pointerPositionWorld.x, _leapManager.pointerPositionWorld.y, 0);
+                this.transform.position = yolo;
+            if(!renderer.enabled) { renderer.enabled = true; }
 			}
 			else
 			{

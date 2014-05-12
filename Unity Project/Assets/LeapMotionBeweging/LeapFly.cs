@@ -85,7 +85,7 @@ public class LeapFly : MonoBehaviour {
 
     // NO FLY MODE
 
-    if (flyMode == false && frame.Hands.Count >= 2) {
+    /*if (flyMode == false && frame.Hands.Count >= 2) {
         Hand leftHand = GetLeftMostHand(frame);
         Hand rightHand = GetRightMostHand(frame);
 
@@ -105,7 +105,7 @@ public class LeapFly : MonoBehaviour {
         newRot.x = -(avgPalmForward.y - 0.1f) * 100.0f;
         
         transform.parent.localRotation = Quaternion.Slerp(transform.parent.localRotation, Quaternion.Euler(newRot), 0.1f);
-    }
+    }*/
 
       
 
