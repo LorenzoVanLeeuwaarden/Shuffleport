@@ -3,6 +3,7 @@ using System.Collections;
 
 public class OnTriggerButtonScene : MonoBehaviour {
 
+    int i = 0;
     public LoadSceneButton button;
 
 	// Use this for initialization
@@ -17,6 +18,17 @@ public class OnTriggerButtonScene : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        button.OnClick();
+        i = 0;
+    }
+
+    void OnTriggerStay(Collider other)
+    {
+
+        i++;
+        if (i > 30)
+        {
+
+            button.OnClick();
+        }
     }
 }

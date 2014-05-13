@@ -3,7 +3,7 @@ using System.Collections;
 
 public class OnTriggerButton4 : MonoBehaviour
 {
-
+    int i = 0;
     public Button4Test button;
 
     // Use this for initialization
@@ -20,7 +20,18 @@ public class OnTriggerButton4 : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        button.OnClick();
+        i = 0;
+    }
+
+    void OnTriggerStay(Collider other)
+    {
+
+        i++;
+        if (i > 30)
+        {
+
+            button.OnClick();
+        }
     }
 
 }
