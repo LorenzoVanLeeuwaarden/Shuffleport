@@ -56,7 +56,7 @@ public class LeapManager : MonoBehaviour {
 
 	private static Controller _leapController = new Controller();
 	private static Frame _currentFrame = Frame.Invalid;
-	private static bool _pointerAvailible = false;
+	private static bool _pointerAvailible = false; 
 	private Vector2 _pointerPositionScreen = new Vector3(0,0);
 	private Vector3 _pointerPositionWorld = new Vector3(0,0,0);
 	private Vector3 _pointerPositionScreenToWorld = new Vector3(0,0,0);

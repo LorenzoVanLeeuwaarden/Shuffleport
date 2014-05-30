@@ -12,3 +12,7 @@ C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\Temp\bin\Debug\Assembly-CSh
 C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
 C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp.dll
 C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Peter\Documents\GitHub\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\Peter\Documents\GitHub\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp.dll
+C:\Users\Peter\Documents\GitHub\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Peter\Documents\GitHub\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-vs.csprojFakesResolveAssemblyReference.cache

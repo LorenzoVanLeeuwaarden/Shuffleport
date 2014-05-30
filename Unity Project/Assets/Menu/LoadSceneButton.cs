@@ -10,10 +10,10 @@ public class LoadSceneButton : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+        
 	}
 
     public void OnClick() {
-        Application.LoadLevel(1);
+       // Application.LoadLevel(1);
     }
 }

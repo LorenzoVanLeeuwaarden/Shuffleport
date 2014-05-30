@@ -19,3 +19,6 @@ C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\Temp\bin\Debug\Assembly-CSh
 C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-Editor-vs.csprojResolveAssemblyReference.cache
 C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\Lorenzo\workspace\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-Editor.pdb
+C:\Users\Peter\Documents\GitHub\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-Editor-vs.csprojResolveAssemblyReference.cache
+C:\Users\Peter\Documents\GitHub\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-Editor.dll
+C:\Users\Peter\Documents\GitHub\Shuffleport\Unity Project\obj\Debug\Assembly-CSharp-Editor.pdb

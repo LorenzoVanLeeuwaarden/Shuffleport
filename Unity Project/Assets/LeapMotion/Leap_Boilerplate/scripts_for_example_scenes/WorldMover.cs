@@ -10,17 +10,23 @@ public class WorldMover : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(_leapManager != null) { 
-			if(_leapManager.pointerAvailible)
-			{
+
+        /*Vector3 yolo = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
+        this.transform.position = yolo;
+        renderer.enabled = true;*/
+        
+        if (_leapManager != null)
+        {
+            if (_leapManager.pointerAvailible)
+            {
                 Vector3 yolo = new Vector3(_leapManager.pointerPositionWorld.x, _leapManager.pointerPositionWorld.y, 0);
                 this.transform.position = yolo;
-            if(!renderer.enabled) { renderer.enabled = true; }
-			}
-			else
-			{
-				renderer.enabled = false;
-			}
-		}
+                if (!renderer.enabled) { renderer.enabled = true; }
+            }
+            else
+            {
+                renderer.enabled = false;
+            }
+        }
 	}
 }
