@@ -99,6 +99,7 @@ public class Buttons : MonoBehaviour
         if (triggerCounter == 34)
         {
 
+            ShowInformationBoxes();
 
             /* Start Button animation and sound */
             animationStart = true;
@@ -112,6 +113,18 @@ public class Buttons : MonoBehaviour
             animationComplete = true;
         }
             triggerCounter++;
+    }
+
+    private void ShowInformationBoxes()
+    {
+        GameObject image = MenuDataManager.getInstance().ShipImage;
+        if (!image.renderer.enabled)
+        {
+            image.renderer.enabled = true;
+            MenuDataManager.getInstance().ShipText.renderer.enabled = true;
+            MenuDataManager.getInstance().ShipTextBox.renderer.enabled = true;
+            MenuDataManager.getInstance().SelectMessage.renderer.enabled = false;
+        }
     }
 
     void OnTriggerExit()

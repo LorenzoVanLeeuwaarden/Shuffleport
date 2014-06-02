@@ -62,6 +62,7 @@
      <Compile Include="Assets\Menu\MenuDataManager.cs" />
      <Compile Include="Assets\Menu\MenuManager.cs" />
      <Compile Include="Assets\Menu\PointerWithCursor.cs" />
+     <Compile Include="Assets\Menu\SelectShipAnimations.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />

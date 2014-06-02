@@ -11,11 +11,10 @@ public class MenuDataManager
 
     private GameObject shipImage;
     private GameObject shipText;
+    private GameObject shipTextBox;
+    private GameObject selectMessage;
 
-    
-
-
-    
+      
     private static MenuDataManager instance;
 
     private MenuDataManager(){ }
@@ -58,4 +57,18 @@ public class MenuDataManager
         get { return shipText; }
         set { shipText = value; }
     }
+
+    public GameObject ShipTextBox
+    {
+        get { return shipTextBox; }
+        set { shipTextBox = value; }
+    }
+
+    public GameObject SelectMessage
+    {
+        get { return selectMessage; }
+        set { selectMessage = value; }
+    }
+
+    
 }

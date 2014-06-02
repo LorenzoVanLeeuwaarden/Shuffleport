@@ -12,6 +12,7 @@ public class MenuManager : MonoBehaviour
     public GameObject shipImage;
     public GameObject menuText;
     public GameObject menuBackgroundText;
+    public GameObject selectShipMessage;
 
     private int currentButtonNumber;
     private bool allButtonsSet = false;
@@ -37,11 +38,17 @@ public class MenuManager : MonoBehaviour
     {
         if (!allButtonsSet)
         {
+            InstantiateWelcomeMessage();
             InstantiateShipImage();
             InstantiateTextBox();
             InstantiateMenuButtons();
-
         }
+    }
+
+    private void InstantiateWelcomeMessage()
+    {
+        GameObject selectMessage = (GameObject)Instantiate(selectShipMessage, new Vector3(0.5f, 0, 0), Quaternion.identity);
+        MenuDataManager.getInstance().SelectMessage = selectMessage;
     }
 
     
@@ -79,7 +86,10 @@ public class MenuManager : MonoBehaviour
         image.renderer.material.SetTextureScale("_MainTex", new Vector2(1, 1));
         image.renderer.material.mainTexture = Resources.Load(MenuDataManager.getInstance().ShipNames.Rows[0][0].ToString()) as Texture2D;
 
-        /* Save ShipImage Global */
+        /* Hide Objects */
+        image.renderer.enabled = false;
+
+        /* Save ShipImage reference */
         MenuDataManager.getInstance().ShipImage = image;
     }
 
@@ -89,6 +99,12 @@ public class MenuManager : MonoBehaviour
         backgroundBox.transform.eulerAngles = new Vector3(0, 0, -180);
 
         GameObject backgroundBoxText = (GameObject)Instantiate(menuText, new Vector3(stageDimensions.x - (stageDimensions.x), stageDimensions.y / 1.2f, 0), Quaternion.identity);
+        
+        //Hide Objects
+        backgroundBox.renderer.enabled = false;
+        backgroundBoxText.renderer.enabled = false;
+        //Save Object reference
         MenuDataManager.getInstance().ShipText = backgroundBoxText;
+        MenuDataManager.getInstance().ShipTextBox = backgroundBox;
     }
 }
