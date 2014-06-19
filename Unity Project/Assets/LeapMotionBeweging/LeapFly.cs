@@ -42,7 +42,6 @@ public class LeapFly : MonoBehaviour {
   void FixedUpdate () {
     
     Frame frame = m_leapController.Frame();
-    Debug.Log(frame.Fingers.Count);
 
 
     if (frame.Hands.Count >= 2 && frame.Fingers.Count > 2 && flyMode == true)
@@ -79,7 +78,6 @@ public class LeapFly : MonoBehaviour {
     else if (frame.Hands.Count >= 2 && frame.Fingers.Count < 2)
     {
         flyMode = false;
-        Debug.Log("FlyMode = Vals");
         transform.parent.rigidbody.velocity = transform.parent.forward * 0;
     }
 

@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: bf80124d28793234ab1e852d87a2b778
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: AMARRAGE C
+    100002: AMARRAGE P
+    100004: CABLES AMA
+    100006: cannot sec
+    100008: //RootNode
+    100010: CONTAINERS
+    100012: COQUE03
+    100014: FENETRES03
+    100016: GARDE CORP
+    100018: 'MAT GARGO '
+    100020: MUR03
+    100022: PILIERS CA
+    100024: PLATEFORME
+    100026: PONT03
+    100028: RADAR03
+    100030: StraightS0
+    100032: StraightS1
+    100034: StraightS2
+    100036: StraightS3
+    100038: StraightS4
+    100040: StraightSt
+    100042: TOUR CARG0
+    100044: TOUR CARG1
+    100046: TOUR CARG2
+    100048: TOUR CARG3
+    100050: TOUR CARG4
+    100052: TOUR CARGO
+    400000: AMARRAGE C
+    400002: AMARRAGE P
+    400004: CABLES AMA
+    400006: cannot sec
+    400008: //RootNode
+    400010: CONTAINERS
+    400012: COQUE03
+    400014: FENETRES03
+    400016: GARDE CORP
+    400018: 'MAT GARGO '
+    400020: MUR03
+    400022: PILIERS CA
+    400024: PLATEFORME
+    400026: PONT03
+    400028: RADAR03
+    400030: StraightS0
+    400032: StraightS1
+    400034: StraightS2
+    400036: StraightS3
+    400038: StraightS4
+    400040: StraightSt
+    400042: TOUR CARG0
+    400044: TOUR CARG1
+    400046: TOUR CARG2
+    400048: TOUR CARG3
+    400050: TOUR CARG4
+    400052: TOUR CARGO
+    2300000: AMARRAGE C
+    2300002: AMARRAGE P
+    2300004: CABLES AMA
+    2300006: cannot sec
+    2300008: CONTAINERS
+    2300010: COQUE03
+    2300012: FENETRES03
+    2300014: GARDE CORP
+    2300016: 'MAT GARGO '
+    2300018: MUR03
+    2300020: PILIERS CA
+    2300022: PLATEFORME
+    2300024: PONT03
+    2300026: RADAR03
+    2300028: StraightS0
+    2300030: StraightS1
+    2300032: StraightS2
+    2300034: StraightS3
+    2300036: StraightS4
+    2300038: StraightSt
+    2300040: TOUR CARG0
+    2300042: TOUR CARG1
+    2300044: TOUR CARG2
+    2300046: TOUR CARG3
+    2300048: TOUR CARG4
+    2300050: TOUR CARGO
+    3300000: AMARRAGE C
+    3300002: AMARRAGE P
+    3300004: CABLES AMA
+    3300006: cannot sec
+    3300008: CONTAINERS
+    3300010: COQUE03
+    3300012: FENETRES03
+    3300014: GARDE CORP
+    3300016: 'MAT GARGO '
+    3300018: MUR03
+    3300020: PILIERS CA
+    3300022: PLATEFORME
+    3300024: PONT03
+    3300026: RADAR03
+    3300028: StraightS0
+    3300030: StraightS1
+    3300032: StraightS2
+    3300034: StraightS3
+    3300036: StraightS4
+    3300038: StraightSt
+    3300040: TOUR CARG0
+    3300042: TOUR CARG1
+    3300044: TOUR CARG2
+    3300046: TOUR CARG3
+    3300048: TOUR CARG4
+    3300050: TOUR CARGO
+    4300000: CONTAINERS
+    4300002: COQUE03
+    4300004: MUR03
+    4300006: PILIERS CA
+    4300008: GARDE CORP
+    4300010: StraightSt
+    4300012: StraightS0
+    4300014: StraightS3
+    4300016: StraightS4
+    4300018: TOUR CARGO
+    4300020: TOUR CARG0
+    4300022: TOUR CARG1
+    4300024: TOUR CARG2
+    4300026: TOUR CARG3
+    4300028: TOUR CARG4
+    4300030: CABLES AMA
+    4300032: 'MAT GARGO '
+    4300034: RADAR03
+    4300036: AMARRAGE C
+    4300038: AMARRAGE P
+    4300040: PONT03
+    4300042: FENETRES03
+    4300044: PLATEFORME
+    4300046: cannot sec
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
